@@ -1,9 +1,9 @@
 console.log(data);
 // Botones barra de Navegacion //
-var btnHome = document.getElementById("homeB");
-var btnStudents = document.getElementById("studentsB");
-var btnCoach = document.getElementById("coachB");
-var btnChart = document.getElementById("chartB");
+var btnHome = document.getElementById("home-btn");
+var btnStudents = document.getElementById("students-btn");
+var btnCoach = document.getElementById("coach-btn");
+var btnChart = document.getElementById("chart-btn");
 
 // Seccion Home //
 var sectionHome = document.getElementsByClassName("home");
