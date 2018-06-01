@@ -2,7 +2,6 @@ body{
     box-sizing: content-box;
     margin: 0;
     padding: 0;
-    
 }
 /* Inicia Estilos del Header */
 header {
@@ -10,8 +9,6 @@ header {
     width: 100%;
     height: 40px;
     background-color: rgb(249, 246, 237);
-
-    
 }
 
 header img {
@@ -28,7 +25,7 @@ header img {
     width: 30%;
     display: inline-block;
     height: 40px;
-    float: right; 
+    float: right;
 }
 
 .search input {
@@ -42,7 +39,7 @@ header img {
     left: 88px;
     top: 6px;
     opacity: 0.6;
-    transform: rotateY(180deg);  
+    transform: rotateY(180deg);
 }
 
 .logo {
@@ -72,7 +69,6 @@ nav {
     background-color:  rgb(249, 246, 237);
     position: relative;
     bottom: 8px;
-
 }
 
 li img {
@@ -103,7 +99,6 @@ footer {
     outline: 1px solid black;
     width: 100%;
     height: 10%;
-
 }
 
 /* Fin Estilo Footer */
@@ -118,27 +113,53 @@ footer {
 } */
 
 .home {
-    outline: 1px solid black;
     width: 60%;
     left: 25%;
     position: relative;
+    bottom: 37em;
     text-align: center;
 
 }
+.home .main-misionContainer {
+    margin: 4em 0% 6em ;
+}
+.home .main-visionContainer{
+    margin: 0.25em 0% 6em ;
+}
+/*Inicio de Quote*/
+blockquote {
+    font-family: Georgia, serif;
+    font-size: 25px;
+    font-style: italic;
+    width: 500px;
+    margin: 0.25em 0% 6em ;
+    padding: 0.35em 40px;
+    line-height: 1.45;
+    position: relative;
+    left: 5em;
+    color: rgba(74, 74, 74, 0.3);
+}
 
+blockquote:before {
+    display: block;
+    padding-left: 10px;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    color: rgba(93, 91, 88, 0.57);
+}
 
+blockquote cite {
+    color: rgba(#888888, 0.9);
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+}
+
+blockquote cite:before {
+    content: "\2014 \2009";
+}
 
 /* Fin de Seccion Home */
-
-
-/* Inicio de ventana Estudiantes */
-
-#window-student {
-    outline: 1px solid black;
-    width: 60%;
-    left: 25%;
-    position: relative;
-    text-align: center;
-}
-
-/* Fin de ventana Estudiantes */
