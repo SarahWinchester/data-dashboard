@@ -23,7 +23,7 @@ header img {
     color: white;
 }
 
-.search {
+.header-search {
 
     width: 30%;
     display: inline-block;
@@ -31,13 +31,13 @@ header img {
     float: right; 
 }
 
-.search input {
+.header-search input {
     position: relative;
     left: 50%;
     top: 10px;
 }
 
-.search i {
+.header-search i {
     position: relative;
     left: 88px;
     top: 6px;
@@ -45,14 +45,14 @@ header img {
     transform: rotateY(180deg);  
 }
 
-.logo {
+.header-logo {
     position: absolute;
     width: 40%;
     height: 40px;
     display: inline-block;
 }
 
-.line-style {
+.header-line-style {
 
     background-color: rgb(251, 200, 82);
     width: 100%;
@@ -109,7 +109,7 @@ footer {
 /* Fin Estilo Footer */
 
 /* Inicio Seccion Home */
-.home {
+.main-home {
     display: block;
 }
 
@@ -117,7 +117,7 @@ footer {
     display: none;
 } */
 
-.home {
+.main-home {
     outline: 1px solid black;
     width: 60%;
     left: 25%;
