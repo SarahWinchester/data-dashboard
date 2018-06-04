@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <link rel="stylesheet" href="css\SCL\SCL2016-2.css">
-    <link rel="stylesheet" href="../../css/main.css">
 
-    <title>SCL2017-1</title>
-  </head>
-  <body>
-    <header>
-      <div class="header-logo">
-        <img src="../../assets/images/logoLab.png" alt="Logotipo">
-      </div>
-      <div class="header-search">
-        <input>
-        <i><i class="fas fa-search"></i></i>
-      </div>
-      <div class="header-line-style">
-      </div>
-    </header>
+<head>
+  <meta charset="utf-8">
+  <title>SCL2017-1</title>
+  <link rel="stylesheet" href="../../css/main.css">
+  <link rel="stylesheet" href="../../css/SCL/SCL2016-2.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+
+</head>
+
+<body>
+  <header>
+    <div class="header-logo">
+      <img src="../../assets/images/logoLab.png" alt="Logotipo">
+    </div>
+    <div class="header-search">
+      <input>
+      <i><i class="fas fa-search"></i></i>
+    </div>
+    <div class="header-line-style">
+    </div>
 
 
     <!-- Inicio de Barra de Navegacion fija -->
@@ -30,29 +32,29 @@
         </li>
         <li class="container-nav" id="students-btn">
           <a href="students.html"><img src="../../assets/icons/estudents.svg" alt="Students"></a>
+          <ul>
+            <li class="main-sedesList">AQP</li>
             <ul>
-              <li class="main-sedesList">AQP</li>
-                <ul>
-                  <li><a href="StudentsHtml\AQPStudent\AQP2016-2.html">AQP2016-2</a></li>
-                  <li><a href="StudentsHtml\AQPStudent\AQP2017-1.html">AQP2017-1</a></li>
-                </ul>
-              <li class="main-sedesList">CDMX</li>
-                <ul>
-                  <li><a href="StudentsHtml\CDMXStudent\CDMX2017-1.html">CDMX2017-1</a></li>
-                  <li><a href="StudentsHtml\CDMXStudent\CDMX2017-2.html">CDMX2017-2</a></li>
-                </ul>
-              <li class="main-sedesList">LIM</li>
-                <ul>
-                  <li><a href="StudentsHtml\LIMstudent\LIM2016-2.html">LIM2016-2</a></li>
-                  <li><a href="StudentsHtml\LIMstudent\LIM2017-1.html">LIM2017-1</a></li>
-                </ul>
-              <li class="main-sedesList">SCL</li>
-                <ul>
-                  <li><a href="StudentsHtml\SCLStudent\SCL2016-2.html">SCL2016-2</a></li>
-                  <li><a href="StudentsHtml\SCLStudent\SCL2017-1.html">SCL2017-1</a></li>
-                  <li><a href="StudentsHtml\SCLStudent\SCL2017-2.html">SCL2017-2</a></li>
-                </ul>
+              <li><a href="StudentsHtml\AQPStudent\AQP2016-2.html">AQP2016-2</a></li>
+              <li><a href="StudentsHtml\AQPStudent\AQP2017-1.html">AQP2017-1</a></li>
             </ul>
+            <li class="main-sedesList">CDMX</li>
+            <ul>
+              <li><a href="StudentsHtml\CDMXStudent\CDMX2017-1.html">CDMX2017-1</a></li>
+              <li><a href="StudentsHtml\CDMXStudent\CDMX2017-2.html">CDMX2017-2</a></li>
+            </ul>
+            <li class="main-sedesList">LIM</li>
+            <ul>
+              <li><a href="StudentsHtml\LIMstudent\LIM2016-2.html">LIM2016-2</a></li>
+              <li><a href="StudentsHtml\LIMstudent\LIM2017-1.html">LIM2017-1</a></li>
+            </ul>
+            <li class="main-sedesList">SCL</li>
+            <ul>
+              <li><a href="StudentsHtml\SCLStudent\SCL2016-2.html">SCL2016-2</a></li>
+              <li><a href="StudentsHtml\SCLStudent\SCL2017-1.html">SCL2017-1</a></li>
+              <li><a href="StudentsHtml\SCLStudent\SCL2017-2.html">SCL2017-2</a></li>
+            </ul>
+          </ul>
         </li>
         <li class="container-nav" id="coach-btn">
           <a href="coach.html"><img src="../../assets/icons/coach.png" alt="Coach"></a>
@@ -62,24 +64,28 @@
         </li>
       </ul>
     </nav>
-    <!-- Fin de barra de Navegacion -->
+  </header>
+  <!-- Fin de barra de Navegacion -->
 
-    <!-- Inicio Seccion Home -->
-    <section class="home">
-      <div class="main-misionContainer">
-        <h1>Mision</h1>
-        <p> SCL171.</p>
-      </div>
-      <div class="main-visionContainer">
-        <h1>Vision</h1>
-        <p>Convertirnos en la principal fuente de talento femenino tech de América Latina para el mundo</p>
-      </div>
-      <blockquote>"Es importante mencionar que la tasa de éxito de Laboratoria ya ha sido extraordinaria" <cite> <br> Barack Obama <br>ExPresidente de Estados Unidos</cite> </blockquote>
+
+  <!-- Inicio Seccion Students -->
+  <main>
+    <section class="main-students">
+      <ul id="Students"></ul>
+      <img class="avatar" src="../../assets/images/avatar.png" alt="student">
+
+
     </section>
-    <!-- Fin Seccion Home-->
+
+    <!-- Inicio de ventana por Estudiante -->
+    <section id="main-window-student">
+
+    </section>
+  </main>
+  <!-- Fin Seccion Students -->
 
 
-    <!-- Inicio footer -->
+  <!-- Inicio footer -->
   <footer>
     <section class="footer">
       <ul class="">
@@ -110,6 +116,10 @@
     </section>
   </footer>
 
-    <script src="js\SCL\SCL2016-2.js" ></script>
-  </body>
+  <!-- Base de datos -->
+  <script src="../../js/data.js"></script>
+  <!-- Javascript SCL -->
+  <script src="../../js/SCL/SCL2016-2.js"></script>
+</body>
+
 </html>
