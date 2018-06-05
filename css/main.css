@@ -3,8 +3,8 @@ body{
     margin: 0;
     padding: 0;
     background-image: url("../assets/backgrounds/3132.jpg");
-    background-size: 340px 100px;
-  background-size: 100% 70%;
+    background-size: 100% 70%;
+    background-repeat: no-repeat;
 }
 /* Inicia Estilos del Header */
 header {
@@ -100,8 +100,31 @@ li, a {
 
 footer {
     outline: 1px solid black;
+    background-color:  rgb(28, 51, 71);
+    position: absolute;
+  
     width: 100%;
-    height: 10%;
+    height:35vh;
+}
+.facebook{
+  display: inline-block;
+  margin: 3em;
+  position: relative;
+  text-decoration: none;
+  left: 20em;
+  border: 1.5px solid white;
+  color: white;
+  padding: 1%;
+  border-radius: 50%;
+}
+.facebook:hover{
+  background-color: white;
+
+}
+.copyright{
+  text-align: right;
+  color: white;
+
 }
 
 /* Fin Estilo Footer */
