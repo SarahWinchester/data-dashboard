@@ -169,20 +169,24 @@ Estadisticas
 -Google charts
 
 ### UPTADES
+
+
 ####SCRUM
-![Scrum Main](assets\mockups\6.jpg)
-![Scrum students](assets\mockups\7.jpg)
-![Estadisticas](assets\mockups\8.jpg)
-![Readme Cambios](assets\mockups\9.jpg)
-![Lista de Tareas](assets\mockups\5.jpg)
-![Extras 1](assets\mockups\5.jpg)
-![Extras 2](assets\mockups\10 extra.jpg)
+
+
+![Scrum Main](assets/mockups/6.jpg)
+![Scrum students](assets/mockups/7.jpg)
+![Estadisticas](assets/mockups/8.jpg)
+![Readme Cambios](assets/mockups/9.jpg)
+![Lista de Tareas](assets/mockups/5.jpg)
+![Extras 1](assets/mockups/5.jpg)
+![Extras 2](assets/mockups/10 extra.jpg)
 ####Mockups
-![Main](assets\mockups\main.png)
-![Estudiantes](assets\mockups\alumnas_pagina_principal.png)
-![Coach](assets\mockups\coach.png)
-![Estadisticas](assets\mockups\estadisticas_principal.png)
-![Sidebar](assets\mockups\alumnas_sidebar.png)
+![Main](assets/mockups/main.png)
+![Estudiantes](assets/mockups/alumnas_pagina_principal.png)
+![Coach](assets/mockups/coach.png)
+![Estadisticas](assets/mockups/estadisticas_principal.png)
+![Sidebar](assets/mockups/alumnas_sidebar.png)
 
 ##Como se manejo el proyecto?
 
