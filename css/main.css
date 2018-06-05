@@ -5,6 +5,7 @@ body{
     background-image: url("../assets/backgrounds/3132.jpg");
     background-size: 100% 70%;
     background-repeat: no-repeat;
+
 }
 /* Inicia Estilos del Header */
 header {
@@ -102,10 +103,10 @@ footer {
     outline: 1px solid black;
     background-color:  rgb(28, 51, 71);
     position: absolute;
-  
     width: 100%;
     height:35vh;
 }
+
 .facebook{
   display: inline-block;
   margin: 3em;
@@ -189,7 +190,11 @@ blockquote cite:before {
     content: "\2014 \2009";
 }
 
-/* Fin de Seccion Home */
+
+blockquote cite:before {
+    content: "\2014 \2009";
+}
+
 
 .nav-menu-sedes {
     outline: 1px solid yellow;
@@ -266,3 +271,28 @@ main-sede-SCL-container {
     left: 100px;
     bottom: 72px;
 }
+
+    text-decoration: none;
+}
+.main-sedes-list a:hover {
+    background-color: beige;
+}
+.main-sede-AQP-container {
+    position: relative;
+    left: 100px;
+}
+.main-sede-CDMX-container {
+}
+main-sede-LIM-container {
+}
+main-sede-SCL-container {
+}
+.main-container-generations {
+    position: relative;
+    width: 100%;
+    left: 100px;
+    bottom: 72px;
+}
+
+/* Termina coach */
+
