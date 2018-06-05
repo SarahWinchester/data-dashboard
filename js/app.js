@@ -1,3 +1,4 @@
+console.log("app");
 console.log(data);
 
 
@@ -15,8 +16,6 @@ for(i ; i < data.AQP["2016-2"].ratings[i].teacher.length; ++i){
     coachAQP += "<li>" + ("calificacion del coach de AQP 2016 II es" + " " + (coachCalif)); + "</li>";
     document.getElementById("main-coach-AQP").innerHTML = coachAQP;
 }
-
-
 
 
 ////////////////////////////////////////////////////////////////////////////////////////
@@ -50,8 +49,6 @@ console.log("calificacion del jedi de AQP 2016 II es" + " " + jediCalif);
 
 ////////////////////////////////////////////////////////////////////////////////////////////////7
 
-
-
 function jedi(data) {
     var jediNumber = data;
     return jediNumber;
@@ -59,5 +56,4 @@ function jedi(data) {
 var jediCalif = data.AQP["2016-2"].ratings["1"].jedi; // cambiando esta parte de la data data.SCL["2017-2"]; la formula serviría para todas las sedes, no se integraron las demas por falta de tiempo
 jediCalif = jedi(jediCalif);
 console.log("calificacion del jedi de AQP 2016 II es" + " " + jediCalif); 
-
 
